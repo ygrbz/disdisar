@@ -1,0 +1,169 @@
+body{
+	background: rgb(242,242,242);
+}
+
+*{
+padding: 0;margin: 0;list-style: none;text-decoration: none;color: #333;	font-size: 14px;font-family: 'microsoft yahei', arial, 瀹嬩綋;
+}
+
+/*导航栏*/
+#header{
+	background: rgb(242,242,242);z-index: 999;width: 100%;height: 80px;position: fixed;
+}
+#header #lead{
+	margin:0 auto;width: 1024px;height: 80px;z-index: 1000;
+}
+
+#header #lead div{
+	display: inline-block;
+}
+
+#header #lead .left{
+	width: 160px;height: 80px;text-align: center;
+}
+
+#header #lead .right{
+	width: 288px;height: 80px;float: right;margin-right: 10px;
+}
+
+#header #lead .right li{
+	float: left;width: 48px;line-height: 80px;text-align: center;
+}
+#header #lead .right #line{
+	width: 32px;height: 3px;background: #1abc9c;position: absolute;left:0;transition: all 0.1s;display: none;
+}
+
+
+#footer {
+	height: 138px;width: 100%;
+}
+#footer #foot{
+	width: 980px;margin:0 auto;padding-top: 30px;
+}
+#footer #foot div{
+	float: left;width: 225px;margin-right: 26px;
+}
+#footer #foot div span{
+	border-top: 1px solid #CDCDCD;width: 225px;display: block;padding-top: 20px;font-size: 12px;line-height: 20px;
+}
+#footer #foot div p{
+	line-height: 20px;font-size: 12px;
+}
+#footer #foot .fouth{
+	margin: 0;
+}
+#footer #foot .fouth span{
+	padding: 0;height: 20px;
+}
+#footer #foot .fouth p{
+	font-size: 12px;
+}
+#footer .friendlink{
+	padding-top: 92px;line-height: 20px;text-align: center;
+}
+#footer .friendlink a{
+	font-size: 12px;
+}
+/*主体开始*/
+#main a:hover{
+	color: rgb(172,172,172);
+}
+#main{
+	margin:0 auto;width: 980px;border: 20px solid rgb(255,255,255);background: #fff;padding-top: 80px;
+}
+/*轮播图*/
+#main .banner{
+	position: relative;width: 980px;height:325px;overflow: hidden;
+}
+
+#main .banner ul{
+	position: absolute;
+}
+
+#main .banner ul li{
+	float: left;
+}
+
+#main .banner div{
+	position: absolute;top: calc(50% - 45px);z-index: 9;display: none;
+}
+#main .banner .next{
+	right: 10px;
+}
+#main .banner .last{
+	left: 10px;
+}
+#main .banner:hover div{
+	display: block;z-index: 9;
+}
+
+#main .aboutus{
+	border-top: 1px solid #CDCDCD;margin-top: 15px;overflow: hidden;font-weight: bold;
+}
+#main .aboutus .abouttitle{
+	line-height:48px;
+}
+#main .aboutus ul li{
+	width: 314px;float: left;margin-right: 19px;font-size: 12px;line-height: 22px;color: #666;
+}
+#main .aboutus ul .last{
+	margin: 0;
+}
+#main .service{
+	border-top: 1px solid #CDCDCD;margin-top: 20px;overflow: hidden;
+}
+#main .service .servicetitle{
+	line-height: 48px;
+}
+#main .service ul li{
+	width: 314px;font-size: 12px;line-height: 22px;float: left;margin-right: 19px;color: rgb(102,102,102);
+}
+#main .service ul .last{
+	margin: 0;
+}
+#main .service ul li span{
+	display: block;line-height: 50px;font-weight: bold;
+}
+#main .service ul li p{
+	line-height: 22px;font-size: 12px;color: #1ABC9C;
+}
+#main .customer{
+	border-top: 1px solid #CDCDCD;margin-top: 20px;overflow: hidden;
+}
+#main .customer .customertitle{
+	padding-top: 20px;
+}
+#main .customer ul li{
+	float: left;margin-right: 20px;margin-top: 20px;
+}
+#main .customer ul .last{
+	margin-right: 0;
+}
+/*核心力量*/
+#main .power{
+	border-top: 1px solid #CDCDCD;margin-top: 20px;overflow: hidden;
+}
+#main .power .powertitle{
+	line-height: 48px;
+}
+#main .power ul li{
+	float: left;width: 225px;margin-right: 19px;font-size: 12px;line-height: 20px;margin-bottom: 20px;color: rgb(102,102,102);
+}
+#main .power ul .last{
+	margin-right: 0;
+}
+#main .power ul li span{
+	padding: 18px 0 16px 0;display: block;font-size: 12px;font-weight: bolder;
+}
+#main .joinus{
+	border-top: 1px solid #CDCDCD;margin-top: 20px;overflow: hidden;
+}
+#main .joinus .joinustitle{
+	line-height: 48px;
+}
+#main .joinus ul li{
+	width: 314px;margin-right: 19px;float: left;font-size: 12px;line-height: 22px;color: rgb(102,102,102);
+}
+#main .joinus ul .last{
+	margin-right: 0;
+}
