@@ -76,13 +76,11 @@ padding: 0;margin: 0;list-style: none;text-decoration: none;color: #333;	font-si
 #main .action ul li div span{
 	margin-bottom: 10px;display: block;
 }
-#main .menu ul li{
-	float: left;font-size:12px;margin: 2px;line-height: 20px;color: #969393;cursor: pointer;
+#main .menu a{
+	font-size:12px;margin: 2px;line-height: 20px;color: #969393;
 }
-/*#main .menu ul .first{
-	cursor: text;
-}*/
-#main .menu ul .current{
+
+#main .menu .current{
 	color: #505050;cursor: text;
 }
 #main .menu{

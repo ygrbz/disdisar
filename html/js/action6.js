@@ -51,13 +51,9 @@ $.ajax({
 			}
 			arr[Math.floor(i / 4)].push(obj[i]);
 		}
-		action(arr[0]);
+		action(arr[5]);
 		var aa=$('.menu').find('a');
-		$(aa[0]).css({
-			color:'#ddd',
-			cursor:'text'
-		})
-		aa[0].onclick=''
+		aa.last().css('color','#ddd')
     }
 });
 
