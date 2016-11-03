@@ -51,13 +51,11 @@ $.ajax({
 			}
 			arr[Math.floor(i / 4)].push(obj[i]);
 		}
-		action(arr[0]);
+		action(arr[2]);
 		var aa=$('.menu').find('a');
 		$(aa[0]).css({
-			color:'#ddd',
-			cursor:'text'
+			color:'#969393'
 		})
-		aa[0].onclick=''
     }
 });
 
